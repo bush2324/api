@@ -2,7 +2,7 @@
 
 這是一個使用 FastAPI 建立的 Web 應用程式，整合了 Hugging Face 的工具與 SmolAgents，以實現各種查詢與 API 功能。
 
-## 功能說明
+## 功能說明rftedr
 
 1. **整合 Hugging Face 平台**  
    登錄 Hugging Face Token 並使用其模型功能進行自然語言處理。
