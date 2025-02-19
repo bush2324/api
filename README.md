@@ -49,7 +49,9 @@ pip install fastapi uvicorn huggingface_hub smolagents
 ```bash
 # 啟動服務器（默認端口）
 uvicorn main:app --reload
+```
 
+```bash
 # 指定端口號
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
