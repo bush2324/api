@@ -46,13 +46,13 @@ pip install fastapi uvicorn huggingface_hub smolagents
 
 ### 2️⃣ 啟動服務器
 使用以下指令啟動 FastAPI 伺服器：
+啟動服務器（默認端口）
 ```bash
-# 啟動服務器（默認端口）
 uvicorn main:app --reload
 ```
 
+指定端口號
 ```bash
-# 指定端口號
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
