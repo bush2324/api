@@ -27,7 +27,7 @@ async def query(question: str):
 # 定義根路徑的處理器（選擇性）
 @app.get("/")
 async def read_root():
-    return {"message": "~葉家豪熊"}
+    return {"message": "~內網測試成功會跳出這則訊息"}
 
 responses = {
     "葉家豪": "超雄聖體",
